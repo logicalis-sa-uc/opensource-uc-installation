@@ -1,11 +1,14 @@
-This repo is to help install Asterisk18, FreePBX16, Queuemetrics and Vacumonitor on Rocky Linux 8
+# Opensource UC Installation
 
-Run the below commands to ensure that you can download and install the files in the repo.
+This repository helps install Asterisk 18, FreePBX 16, Queuemetrics, and Vacumonitor on Rocky Linux 8.
 
-sudo yum -y update \n
-sudo yum -y install git \n
-sudo mkdir -p /home/support \n
-cd /home/support/ \n
-sudo git clone https://github.com/logicalis-sa-uc/opensource-uc-installation.git \n
- \n
-Make sure that you do chmod +x *.sh to make the scripts executable.
+## Installation Instructions
+
+Run the below commands to ensure that you can download and install the files in the repo:
+
+```bash
+sudo yum -y update
+sudo yum -y install git
+sudo mkdir -p /home/support
+cd /home/support/
+sudo git clone https://github.com/logicalis-sa-uc/opensource-uc-installation.git
