@@ -11,4 +11,4 @@ sudo yum -y update
 sudo yum -y install git
 sudo mkdir -p /home/support
 cd /home/support/
-sudo git clone https://github.com/logicalis-sa-uc/opensource-uc-installation.git
+sudo git clone https://github.com/logicalis-sa-uc/opensource-uc-installation.git /home/support/
